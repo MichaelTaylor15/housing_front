@@ -1,0 +1,68 @@
+/* Main Slider Styles */
+
+.main-slider-wrapper {
+    position: relative;
+}
+
+.main-slider-wrapper #slider-contents {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.main-slider-wrapper .jumbotron {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background: none;
+    padding: 0;
+    margin: auto;
+    margin-top: -123px;
+}
+
+.main-slider-wrapper h1 {
+    color: #fff;
+    font-size: 60px;
+    margin: 0 0 14px 0;
+}
+
+.main-slider-wrapper p {
+    font-size: 17px;
+    color: #fff;
+}
+
+.main-slider-wrapper .contents {
+    margin-bottom: 45px;
+}
+
+.main-slider-wrapper .btn {
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.main-slider-wrapper .btn-border {
+    background: none;
+    border: 2px solid #fff;
+    padding: 13px 18px;
+}
+
+.main-slider-wrapper .btn-border:hover {
+    background: #fff;
+    color: #333;
+}
+
+.main-slider-wrapper .btn-warning.btn-3d::before {
+    background: #ec8b1b;
+}
+
+#main-slider {
+    margin-bottom: 30px;
+    margin-bottom: 90px;
+}
