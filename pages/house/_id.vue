@@ -180,7 +180,7 @@
 
                       <baidu-map
                         class="bm-view"
-                        ak="QFgFQorrB84maOZh0pPGC8kUiP0mGIhx"
+                        ak=""
                         :center="center"
                         :zoom="zoom"
                         :scroll-wheel-zoom="true"
